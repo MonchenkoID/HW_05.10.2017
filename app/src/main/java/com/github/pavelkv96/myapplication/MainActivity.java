@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, IMyVisible {
-
+//TODO make variables "private" and add check codestyle. Example : "Button mAddButton"
     private static final String TAG = "MainActivity_Lifecycle";
     EditText etNum1;
     EditText etNum2;
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
-
+//TODO check division by zero and input letters and 
     @Override
     public void onClick(View v) {
         float num1 = 0;
